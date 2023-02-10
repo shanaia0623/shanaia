@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ARTHOE</title>
+        <meta charset="utf-8">
+        <meta https-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">BRI</a>
+            <ul>
+                <li><a href="#">Shanaia Pineda</a></li>
+                <li><a href="#">GP1DA</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="stars.png" id="stars">
+            <img src="moon.png" id="moon">
+            <img src="mountains_behind.png" id="mountains_behind">
+            <h1 id="text">Art   Hoe</h1>
+            <a href="#sec" id="btn">Explore</a>
+            <img src="mountains_front.png" id="mountains_front">
+        </section>
+        <div class="sec" id="sec">
+          <h2>ARTHOE</h2>
+          <p>Hi everyone, I'm Shanaia Pineda, presenting my webpage called Arthoe. Arthoe means shattering cultural stereotypes, the word arthoe is used to describe a creative and artistic individuals, who see themselves as outcasts from the main stream culture and who express themselves through art. By reclaiming the word, art hoes are building their own identity. Art Hoe is an aesthetic based around a love for art, a connection to nature, painting, and flowers, and is symbolized by women who love art and nature. Art is a diverse range of human activity, and resulting product, that involves creative or imaginative talent expressive of technical proficiency, beauty, emotional power, or conceptual ideas. There is no generally agreed definition of what constitutes art, and its interpretation has varied greatly throughout history and across cultures. In the Western tradition, the three classical branches of visual art are painting, sculpture, and architecture
+           <br><br><br>Art hoe aesthetic or art ho seems to be the latest trend on the blogosphere, but what it is exactly and what are those crucial points when it comes to its definition nobody seems to know for certain? The descriptions are more than often blurry and incomplete. Is it another art movement, a brand-new form of lifestyle, the evolution of hipsterism? The opinions seem to be divided. Originally it was envisioned as an online platform for the promotion of young artists of color, regardless of their gender or sexual orientation. The initial idea was swiftly appropriated by the teenagers worldwide making it the global phenomena and the latest fashion style rather than the significant movement or politically charged art. The art hoe term seems to include different aspects and in the following paragraphs we will try to unravel the mystery of what hides behind the #arthoe label.
+           <br><br><br>Art Hoe - Shattering Cultural Stereotypes<br>
+           This most recent form of art is already raising controversies and sparkling debates. Firstly, because of its name which is seen through history as an offensive way of referring to women. In the alternative context, the word is used to describe a creative and artistic individuals, who see themselves as outcasts from the mainstream culture and who express themselves through art. By reclaiming the word, art hoes are building their own identity. The co-founder of the movement fifteen-year-old artist Mars stated on various occasions that art hoe, or ‘art ho’ was originally meant to represent the shared space for young artist of color to express their internal conflicts and concerns. This online movement encourages people to speak their mind about the issues they are struggling with, with the main focus on gender roles, racial issues and politics of identity. By accepting themselves as they are and speaking confidently about it, these teenagers support each other while at the same time fight against cultural stereotyping.
+           <br><br><br>Movement and Platform for Artists of Color<br>
+           Although art hoe movement started as an online initiative for empowering participants of color it became widely accepted among teenagers of the different class, gender, and racial background. The founders are happy about the expanding network which was meant to be inclusive and positive. Even some peer celebrities expressed their support for the initiative like actress Amandla Stenberg, singer Willow Smith and the rapper Babbeo Baggins. However, since one of the main concerns and one of the most explored themes in art hoe is the social status and the rights of people of color there is certain level of discontent among the black teenagers engaged in the movement when it comes to suburban, white girls appropriating their label just for fashionable purposes.
+           <br><br><br>Art Hoe Aesthetic<br>
+           When in search of those aesthetic elements recognizable for this specific style Instagram and Tumblr profiles are the main sources of information. This online subcultural space seems to be filled with artistic reinterpretation of the selfie medium. Scribbled-on selfies, monochromatic vintage outfits, portraits in front of impressionist masters like Van Gogh and Matisse, queer culture as an inspiration and a chic nonchalance seem to dominate the expressive style of art hoes worldwide. The art hoe initiative is sometimes compared to the Harlem Renaissance, the revival of African American art at the beginning of the past century.
+           <br><br><br>Is It More Than Just a Passing Trend?
+           Many wonder if art hoe aesthetic is just another passing trend. Original political goal and the idea of empowerment of young, marginalized people of color through art seems to be already losing itself through commercialization. There are even fashion companies who are labeling their collections with art hoe, and like many other alternative movements there is a potential threat for this one to soon become mainstream and eventually irrelevant. On the other hand, this art movement is gaining much attention and media support and it is praised as a way of young individuals to come to terms with their individual and group identity. The movement is still young as the participants themselves and the future and potential outcome are still to be seen.
+        
+        </div>
+
+        <script>
+            let stars=document.getElementById('stars');
+            let moon=document.getElementById('moon');
+            let mountains_behind=document.getElementById('mountains_behind');
+            let text=document.getElementById('text');
+            let btn=document.getElementById('btn');
+            let mountains_front=document.getElementById('mountain_front');
+            let header = document.querySelector('header');
+
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY;
+                stars.style.left = value * 0.25 + 'px';
+                moon.style.top = value * 1.05 + 'px';
+                mountains_behind.style.top = value * 0.5 + 'px';
+                mountains_front.style.top = value * 0 + 'px';
+                text.style.marginRight = value * 4 + 'px';
+                text.style.marginTop = value * 1.5 + 'px';
+                btn.style.marginTop = value * 1.5 + 'px';
+                header.style.top = value * 0.5 +'px';
+            })
+        </script>
+   
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Home</h4>
+                        <ul>
+                            <li><a href="#">I hope you liked it po sir!</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>About</h4>
+                        <ul>
+                            <li><a href="#">Name: Pineda, Shanaia Mandy<br>Section: GP1DA<br>Gender: Female<br>Address:Blk 16 lot 23 Amsterdam St., Summer Meadows, Salitran III, Dasmarinas Cavite<br>Birthday: May 28, 2005<br>Contact No. 09606821512<br>Email: aisatpineda223364@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Source</h4>
+                        <ul>
+                            <li><a href="#">Inspired by this: Parallax Scrolling Website|How to make website using Html CSS & Javascript<br><br>https://youtube.com/watch?v=1wfeqDyMUx4</a></li>
+                            <li><a href="#">Star vector created by upklyak<br><br>https://www.freepik.com/free-vector/m</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contact</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+             </div>       
+        </footer>
+     </body>
+</html>
